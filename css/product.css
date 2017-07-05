@@ -1,0 +1,200 @@
+body,
+html {
+  font-family: "微软雅黑";
+  background: #EFEFEF;
+}
+input,
+select,
+button {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+#header {
+  background: #ff841d;
+  width: 100%;
+  height: 50px;
+  position: relative;
+  line-height: 50px;
+}
+#header .logo {
+  position: absolute;
+  left: 10px;
+}
+#header .logo img {
+  width: 200px;
+}
+#header .download_app {
+  position: absolute;
+  right: 10px;
+}
+#header .download_app img {
+  height: 30px;
+}
+#search {
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+}
+#search form {
+  position: relative;
+  padding-right: 70px;
+}
+#search form input[type="search"] {
+  font-size: 12px;
+  border: 0;
+  width: 100%;
+  background: #f1f1f1;
+  height: 30px;
+  border-radius: 20px;
+  text-indent: 20px;
+}
+#search form a {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 30px;
+  width: 60px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #ffb41d;
+  padding: 0;
+  line-height: 30px;
+}
+#product-title {
+  background: #efefef;
+  position: relative;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+#product-title .breadcrumb {
+  margin-bottom: 0px;
+}
+#product-title .breadcrumb li:before {
+  content: "";
+}
+#product-title .breadcrumb li:after {
+  content: ">";
+}
+#product-title .btn-default {
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  height: 30px;
+  background: #e6e6e6;
+}
+.product-head .media-left {
+  width: 100%;
+  height: 160px;
+  display: block;
+  text-align: center;
+  position: relative;
+}
+.product-head .media-left .logo {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+.product-head .media-body {
+  margin-left: 10px;
+}
+.product-head .media-body .media-heading {
+  font-size: 16px;
+  padding: 5px 0;
+  margin-left: 10px;
+}
+.product-head .media-body .other {
+  margin-top: 10px;
+  padding-bottom: 20px;
+  margin-left: 10px;
+}
+.product-head .media-body .other ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.product-head .media-body .other ul .price {
+  color: #a1a1a1;
+  width: 50%;
+  height: 24px;
+  line-height: 24px;
+}
+.product-head .media-body .other ul .comment {
+  color: #a1a1a1;
+  width: 50%;
+  height: 24px;
+  line-height: 24px;
+}
+.tab .col-xs-4 {
+  padding: 10px;
+  background-color: #ffbb00;
+  border: 1px solid #ccc;
+  border-left: 0px;
+  text-align: center;
+}
+.tab .col-xs-4:nth-child(1) {
+  background-color: #ffbb00;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffa632), to(#ff9000));
+}
+.tab .col-xs-4 a {
+  color: #fff;
+}
+.plist {
+  background-color: #fff;
+}
+.plist ul {
+  margin: 0;
+  padding: 0;
+}
+.plist ul li {
+  position: relative;
+  font-size: 16px;
+  padding: 14px 0;
+  list-style: none;
+  border-bottom: 1px solid #e0e0e0;
+}
+.plist ul li .mall {
+  width: 33.3%;
+  text-align: left;
+  color: #5a5a5a;
+  font-size: 14px;
+}
+.plist ul li .mall .zy {
+  color: #999;
+  font-size: 12px;
+}
+.plist ul li .inf {
+  width: 66.7%;
+  text-align: right;
+  padding-right: 25px;
+  box-sizing: border-box;
+}
+.plist ul li .inf .sprice {
+  color: #fe0202;
+}
+.plist ul li .inf span i {
+  font-size: 15px;
+  color: #999;
+}
+.plist .note {
+  font-size: 12px;
+  color: #888;
+  padding: 8px 10px;
+  line-height: 18px;
+}
+.pj-t {
+  border-top: 4px solid #7a7a7a;
+  margin-top: 5px;
+}
+.pj-t > div {
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  overflow: hidden;
+  background: #dbdbdb;
+  font-size: 14px;
+  border-top: 1px solid #fff;
+}
